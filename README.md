@@ -1,2 +1,2 @@
-# top_projects
-The Odin Project Course - Projects
+# The Odin Project Course - Projects
+Projects developed during The Odin Project training
