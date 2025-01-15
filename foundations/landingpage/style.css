@@ -1,0 +1,118 @@
+body {
+  font-family: "Roboto", "Verdana", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  margin: 0;
+  min-height: 100vh;
+}
+
+ul {
+    list-style: none;
+}
+
+button {
+    background-color: #3882f6;
+    color: #f9faf8;
+    font-weight: bold;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    text-decoration: none;
+}
+
+.flexpage {
+    display:flex;
+    flex-flow: column nowrap;
+}
+
+.header {
+    background-color: #1F2937;
+    display:flex;
+    justify-content: stretch;
+    flex: 0;
+    padding-right: 50px;
+    padding-left: 50px;
+    align-items: center;
+}
+
+#logo {
+    font-size: 18px;
+    color: #f9faf8;
+    font-weight: bold;
+}
+
+#header_links {
+    display:flex;
+    flex: 1;
+    padding: 0px;
+}
+
+#header_links #logo {
+    margin-right: auto;
+}
+
+.infolink {
+    margin-right: 20px;
+    color: #f9faf8;
+    font-size: 15px;
+}
+
+.content {
+
+}
+
+.content .hero {
+    background-color: #1F2937;
+}
+
+#hero_img {
+    width: 400px;
+}
+
+.hero_header_text {
+font-size: 30px;
+font-weight: 800;
+color: #f9FAF8;
+}
+
+.hero_text {
+    font-size: 14px;
+    color: #e5e7eb;
+}
+
+.content .tiles {
+
+}
+
+.tiles_title {
+    font-size: 23px;
+    color: #1F2937;
+    font-weight: 900;
+}
+
+.items_flex > .item > img {
+    width: 100px;
+}
+
+.content .quote {
+ background-color: #e5e7eb;
+}
+
+.quote_text {
+    font-size: 20px;
+    font-style: italic;
+    color: #1F2937;
+}
+
+.quote_author {
+    font-weight: bold;
+    font-size: 15px
+}
+
+.content .action {
+
+}
+
+.footer {
+    background-color: #1F2937;
+}
