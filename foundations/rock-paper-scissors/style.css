@@ -14,5 +14,29 @@ h1, p {
 h1 {
     font-size: 48px;
     font-weight: 900;
-    margin-top: 100px;
+    margin-top: 50px;
+    margin-bottom: -15px;
+}
+
+h5 {
+    font-weight: 300;
+    color: rgb(100, 98, 98);
+}
+
+button {
+    font-size: 1rem;
+    padding: 10px;
+    margin: 0px 5px;
+    border-radius: 6px;
+}
+
+#endgame {
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+#game_texts {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
 }
