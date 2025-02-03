@@ -1,0 +1,15 @@
+.container {
+    display: flex;
+    flex-flow: row wrap;
+    border: 2px black solid;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.square {
+
+}
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
