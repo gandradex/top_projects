@@ -1,0 +1,40 @@
+.container {
+    display: flex;
+    flex-flow: row wrap;
+    border: 2px black solid;
+    justify-content: space-between;
+    margin-top: 10px;
+    width: 410px;
+    height: 630px;
+    padding: 5px;
+    background-color: black;
+    margin: 100px 100px;
+}
+
+body {
+    font-family: monospace;
+}
+
+#display {
+    flex: 4 1 390px;
+    border: 4px black solid;
+    height: 100px;
+
+    text-align: right;
+    padding: 10px 10px 0px 10px;
+    font-size: 5rem;
+    vertical-align: middle;
+    font-weight: 500;
+    background-color: darkgray;
+}
+
+.key {
+    width: 100px;
+    height: 100px;
+    border-radius: 8px;
+    font-size: 2rem;
+}
+
+#zero {
+    flex: 0 0 203px;
+}
