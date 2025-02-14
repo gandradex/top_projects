@@ -32,9 +32,38 @@ body {
     width: 100px;
     height: 100px;
     border-radius: 8px;
-    font-size: 2rem;
+    font-size: 1.8rem;
+    font-family: monospace;
 }
 
 #zero {
     flex: 0 0 203px;
+}
+
+.orange {
+    background-color: #FF8F1F;
+}
+
+.orange:focus {
+    background-color: #ffc183;
+}
+
+.orange:active {
+        background-color: #ffc183;
+}
+
+.blue {
+    background-color: dodgerblue;
+}
+
+.blue:active {
+    background-color: rgb(123, 189, 255);
+}
+
+.green {
+    background-color: #217C7E;
+}
+
+.green:active {
+    background-color: #33b9bb;
 }

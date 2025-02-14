@@ -1,6 +1,6 @@
 const display = document.querySelector("#display");
 
-display.value = 0;
+display.textContent = 0;
 
 // const btnGo = document.querySelector("#btnChangeGrid");
 // const txtSize = document.querySelector("#txtGridSize");
